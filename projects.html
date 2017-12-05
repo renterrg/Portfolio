@@ -18,33 +18,41 @@
 
 <div class="row" style="margin:0">
 
-      <div class="col l1 blue-grey darken-4" style="height:88em; padding-top:10em">
+      <div class="col l1" style="height:88em; padding-top:10em">
           <!-- Grey navigation panel -->
 
           
           <ul>
-
-
-
-            <li class="center-align"><a href="index.html" class="btn-floating btn-large blue-grey darken-1"><i class="material-icons">home</i></a></li><br><br><br><br>
-            <li class="center-align"><a class="btn-floating btn-large blue-grey darken-1"><i class="material-icons">contacts</i></a></li><br><br><br><br>
+            <li class="center-align"><a href="index.html" class="btn-floating btn-large blue-grey darken-4 tooltipped" data-position="right" data-delay="50" data-tooltip="Home"><i class="material-icons">home</i></a></li><br><br><br><br>
+            <li class="center-align"><a href="#modal1" class="btn-floating btn-large blue-grey darken-4 tooltipped modal-trigger" data-position="right" data-delay="50" data-tooltip="Contact"><i class="material-icons">contacts</i></a></li><br><br><br><br>
             
-
-
                <!-- Dropdown Trigger -->
                 <li class="center-align"><a class='dropdown-button btn-floating btn-large' href='#' data-activates='dropdown1'>Links</a></li>
 
                 <!-- Dropdown Structure -->
                 <ul id='dropdown1' class='dropdown-content'>
-                  <li class="black"><a href="#!" class="center-align"><img src="linkedin_logo.png" class="responsive-img" width="50%"></a></li>
+                  <li class="blue-grey darken-4"><a href="https://www.linkedin.com/in/renzo-renteria/" class="center-align"><img src="linkedin_logo.png" class="responsive-img" width="50%"></a></li>
                   <li class="divider"></li>
-                  <li class="black"><a href="#!" class="center-align"><img src="git.svg" class="responsive-img" width="50%"></a></li>
-                  <li class="divider"></li>
-                  <li class="black"><a href="#!" class="center-align"><img src="tweet.png" class="responsive-img" width="50%"></a></li>
+                  <li class="blue-grey darken-4"><a href="https://github.com/renterrg" class="center-align"><img src="git.svg" class="responsive-img" width="50%"></a></li>
                 </ul>
           </ul>
 
-         
+             <!-- Modal Structure -->
+            <div id="modal1" class="modal">
+                <div class="modal-content blue-grey darken-4">
+          
+                    <i class="medium material-icons" style="color:white">assignment_ind</i><h4 class="white-text">Contact me</h4>
+
+                    <br>
+
+                    <a href="mailto:renzo.renteria@gmail.com"><h6 class="white-text light">renzo.renteria@gmail.com</h6></a>
+
+                    <h6 class="white-text light">(703) 473 - 8729</h6>
+                </div>
+                <div class="modal-footer">
+                  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                </div>
+            </div>
                  
       </div>
 
@@ -58,8 +66,8 @@
             </div>
             <div class="card-content">
               <span class="card-title activator grey-text text-darken-4">UCode<i class="material-icons right">more_vert</i></span>
-              <p><a href="#">https://github.com/ruthbuena/UCode</a></p>
-              <p><a href="#">https://rocky-caverns-52053.herokuapp.com</a><p>
+              <p><a href="https://github.com/ruthbuena/UCode">GitHub</a></p>
+              <p><a href="https://rocky-caverns-52053.herokuapp.com">Heroku</a><p>
             </div>
             <div class="card-reveal" style='padding: 40px 80px 50px 80px'>
               <span class="card-title grey-text text-darken-4">UCode<i class="material-icons right">close</i></span>
@@ -77,7 +85,8 @@
             </div>
             <div class="card-content">
               <span class="card-title activator grey-text text-darken-4">TeamTraining<i class="material-icons right">more_vert</i></span>
-              <p><a href="#">https://github.com/renterrg/TeamTraining</a></p>
+              <p><a href="https://github.com/renterrg/TeamTraining">GitHub</a></p>
+              <p><a href="https://warm-reaches-38259.herokuapp.com/">Heroku</a></p>
             </div>
             <div class="card-reveal" style='padding: 60px'>
               <span class="card-title grey-text text-darken-4">TeamTraining<i class="material-icons right">close</i></span>
@@ -95,7 +104,7 @@
             </div>
             <div class="card-content">
               <span class="card-title activator grey-text text-darken-4">Farmers' Markets<i class="material-icons right">more_vert</i></span>
-              <p><a href="#">https://github.com/renterrg/farmers_market</a></p>
+              <p><a href="https://github.com/renterrg/farmers_market">GitHub</a></p>
             </div>
             <div class="card-reveal" style='padding: 60px'>
               <span class="card-title grey-text text-darken-4">Farmers' Markets<i class="material-icons right">close</i></span>
@@ -114,11 +123,13 @@
             </div>
             <div class="card-content">
               <span class="card-title activator grey-text text-darken-4">Train Scheduler<i class="material-icons right">more_vert</i></span>
-              <p><a href="#">Github</a></p>
+              <p><a href="https://github.com/renterrg/Train-Scheduler">Github</a></p>
             </div>
             <div class="card-reveal">
               <span class="card-title grey-text text-darken-4">Train Scheduler<i class="material-icons right">close</i></span>
-              <p>Description...</p>
+              <p>Train schedule application providing up-to-date information about various trains, namely their arrival times and how many minutes remain until they arrive at their station.</p>
+              <p>Incorporates Firebase to host arrival and departure data, and retrieves and manipulates this information with Moment.js.</p>
+              <p>The application was built using HTML, CSS, JavaScript/jQuery, Bootstrap, Firebase, and Moment.</p> 
             </div>
           </div>
         </div>
@@ -126,15 +137,17 @@
         <div class="card-panel hoverable col s4" style="padding:0; width: 32%; margin-right:10px">
           <div class="card medium">
             <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="">
+              <img class="activator" src="trivia.jpg" style='height: 15.6em'>
             </div>
             <div class="card-content">
               <span class="card-title activator grey-text text-darken-4">Trivia Game<i class="material-icons right">more_vert</i></span>
-              <p><a href="#">GitHub</a></p>
+              <p><a href="https://github.com/renterrg/TriviaGame">GitHub</a></p>
             </div>
             <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">Farmers Market<i class="material-icons right">close</i></span>
-              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+              <span class="card-title grey-text text-darken-4">Trivia Game<i class="material-icons right">close</i></span>
+              <p>Trivia game application built to display a number of questions with a limited amount of time to finish the quiz.</p>
+              <p>Incorporates JavaScript/jQuery to manipulate HTML in order to calculate the number of correct, incorrect, and unanswered questions once the timer is out.</p>
+              <p>The application was buitl using HTML, CSS, and JavaScript/jQuery.</p>
             </div>
           </div>
         </div>
@@ -158,14 +171,8 @@
       </div>
 
 </div>
-  
-  
 
 </main>
-
-
-
-
 
 
 
@@ -177,6 +184,8 @@
         $(document).ready(function(){
           $('.fixed-action-btn').openFAB();
           $('.fixed-action-btn').closeFAB();
+          $('.tooltipped').tooltip({delay: 50});
+          $('.modal').modal();
           
         });
         
