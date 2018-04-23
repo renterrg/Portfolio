@@ -13,3 +13,137 @@
 
 	font-size: 6em;
 }
+
+}
+
+
+nav {
+	background: white;
+}
+
+	.nav-btn {
+
+		color:#16599C;
+		font-size: 20px; 
+		font-family: 'Fjalla One', sans-serif;
+	}
+
+.header-container {
+
+	height: 40em;
+}
+
+	.header-1 {
+		color:#16599C; 
+		margin-top: 3em;
+		font-family: 'Fjalla One', sans-serif;
+	}
+
+	.header-2 {
+		color:#16599C; 
+		margin-top: 1em; 
+		font-weight: 100;
+	}
+
+.about-section {
+
+	padding: 7em 0 7em 0; 
+	background:#16599C;
+}
+
+#profile-pic {
+
+	height:13em; 
+	width: 13em; 
+	margin-right: 2em;  
+	border-radius: 5px; 
+	margin-left: 1em
+}
+
+.about-header {
+
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.about-content {
+
+	font-size: 20px; 
+	font-weight: 100;
+}
+
+
+#projects-container {
+
+	font-size: 6em;
+	color:#16599C; 
+	margin-top: 1.5em; 
+	margin-bottom: 1em; 
+	font-weight: 100;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+
+.card-title {
+
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.row-2 {
+
+	height: 14em;
+}
+
+.divider {
+
+	margin-top: 7em; 
+	width:90%;
+	margin-left: 4em; 
+	background:gray;
+}
+
+.page-footer {
+
+	padding: 7em 0 2em 0;
+	background:white;
+}
+
+#contact-btn {
+
+	padding-bottom: 3em;
+	border-style:solid; 
+	border-color:#16599C;
+}
+
+#btn-font {
+
+	font-family: 'Fjalla One', sans-serif; 
+	color:#16599C;
+}
+
+#links-label {
+
+	color:#16599C;
+	font-size: 3.5em; 
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.links {
+
+	background:#16599C;
+}
+
+#copyright {
+
+	color:#16599C; 
+	background: white;
+}
+
+.modal-content {
+
+	background: #16599C;
+}
+
+#contact-icon {
+
+	color:white;
+}
